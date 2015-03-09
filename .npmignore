@@ -1,0 +1,12 @@
+.gitignore
+.jshintignore
+ignoring-code-for-coverage.md
+.travis.yml
+*.tar
+*.tgz
+*.log
+misc/
+build/
+public/
+test/
+html-report/

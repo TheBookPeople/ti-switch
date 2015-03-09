@@ -1,0 +1,28 @@
+{
+  "name": "ti-switch",
+  "version": "0.0.1",
+  "description": "Simple CLI to manage configuration files.",
+  "bin": {
+    "ti-switch": "index.js"
+  },
+  "devDependencies": {
+    "mocha": "1.21.4",
+    "istanbul": "0.3.2",
+    "coveralls": "2.11.1",
+    "jshint": "2.5.x",
+    "sinon": "1.13.x"
+  },
+  "scripts": {
+    "pretest": "jshint index.js lib/ test/",
+    "test": "istanbul cover _mocha",
+    "posttest": "istanbul check-coverage --statements 100 --branches 100"
+  },
+  "author": "The Book People Ltd",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "commander": "^2.6.0",
+    "node-dir": "^0.1.6",
+    "winston": "^0.9.0"
+  }
+}

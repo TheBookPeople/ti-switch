@@ -1,0 +1,8 @@
+language: node_js
+deploy:
+  provider: npm
+  email: BangorDevelopment@thebookpeople.co.uk
+  api_key:
+    secure: GEN8BDwoT63MiY692GnKIXKKGaLk8JvTfUIcG7zNARwo8X2jVsk67IOd4P28WDjedTbRZXAkGXRW5RSkP4MS/OMUbYF2e/Kau+U+BsvawLG5IAI2qW0Sf7szehY8duEYZJKcMtSywcoNZ+/fr1GI/WrjyDj7hElu4CFt2tsIBjk=
+  on:
+    tags: true
