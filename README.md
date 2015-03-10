@@ -1,5 +1,5 @@
 # ti-switch
-[![Build Status](https://travis-ci.org/TheBookPeople/ti-switch.svg)](https://travis-ci.org/TheBookPeople/ti-switch) [![npm version](https://badge.fury.io/js/ti-switch.svg)](http://badge.fury.io/js/ti-switch) [![Code Climate](https://codeclimate.com/github/TheBookPeople/ti-switch/badges/gpa.svg)](https://codeclimate.com/github/TheBookPeople/ti-switch)
+[![Build Status](https://travis-ci.org/TheBookPeople/ti-switch.svg)](https://travis-ci.org/TheBookPeople/ti-switch) [![npm version](https://badge.fury.io/js/ti-switch.svg)](http://badge.fury.io/js/ti-switch) [![Code Climate](https://codeclimate.com/github/TheBookPeople/ti-switch/badges/gpa.svg)](https://codeclimate.com/github/TheBookPeople/ti-switch) [![Test Coverage](https://codeclimate.com/github/TheBookPeople/ti-switch/badges/coverage.svg)](https://codeclimate.com/github/TheBookPeople/ti-switch)
 
 CLI tool for switching configuration files within Titanium App.
 
