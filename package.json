@@ -1,9 +1,9 @@
 {
-  "name": "ti-release",
+  "name": "ti-switch",
   "version": "0.0.1",
   "description": "Simple CLI to manage configuration files.",
   "bin": {
-    "ti-release": "index.js"
+    "ti-switch": "index.js"
   },
   "repository" : { 
 	  "type" : "git", 
