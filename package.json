@@ -19,7 +19,7 @@
   },
   "scripts": {
     "pretest": "jshint index.js lib/ test/",
-    "test": "mocha",
+    "test": "istanbul test  _mocha",
     "posttest": "istanbul check-coverage --statements 90 --branches 75"
   },
   "author": "The Book People Ltd",
