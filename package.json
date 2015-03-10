@@ -5,16 +5,17 @@
   "bin": {
     "ti-switch": "index.js"
   },
-  "repository" : { 
-	  "type" : "git", 
-	  "url" : "https://github.com/TheBookPeople/ti-switch/"
-   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheBookPeople/ti-switch/"
+  },
   "devDependencies": {
+	"codeclimate-test-reporter": "0.0.4",
     "mocha": "1.21.4",
     "istanbul": "0.3.2",
     "coveralls": "2.11.1",
     "jshint": "2.5.x",
-	"sinon" : "1.13.x"
+    "sinon": "1.13.x"
   },
   "scripts": {
     "pretest": "jshint index.js lib/ test/",
