@@ -10,7 +10,7 @@ describe('cli', function(){
 	  
 	  cli.run(['node', '/usr/local/bin/ti-switch', 'ppt']);
 	  
-	  assert.ok(stub.calledWith({root :'./app', type : 'ppt'}), ' app_processor was not called');
+	  assert.ok(stub.calledWith({root :'./', type : 'ppt'}), ' app_processor was not called');
 	  
 	  app_processor.run.restore();
     });
