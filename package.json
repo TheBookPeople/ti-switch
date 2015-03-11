@@ -1,6 +1,6 @@
 {
   "name": "ti-switch",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Simple CLI to manage configuration files.",
   "bin": {
     "ti-switch": "index.js"
