@@ -9,7 +9,7 @@ describe('app_processor', function(){
 	  
     it('process enviroment files in app', function(){
 	  var fsStub = sinon.stub(fs, "existsSync");
-  	  fsStub.withArgs('./app/tiapp.xml').returns(true);
+  	  fsStub.withArgs('./tiapp.xml').returns(true);
 	  var fuStub = sinon.stub(file_utils, "cp");
 	  
 	  app_processor.run({root :'./app', type : 'ppt'});
