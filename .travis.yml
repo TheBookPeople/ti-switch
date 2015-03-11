@@ -5,6 +5,7 @@ addons:
     repo_token:
       secure: cctSyhxkbNc60x4WzdF9J3I0HZUQ674i0Cilo2kA8D7Lz9m66S/Jujkl3tJso5kO2RHJT0KdeqIjn+3JcuBUhY+sRg8Xu1vMt++r8RqR1+L5IXUXIlipr6ENsiQL+d9C11uaGzE5ZFvlMOIPvvxSgjx2ier2bn5pEPuxIMh7Az8=
 after_script:
+  - find .
   - cat coverage/lcov.info | codeclimate
 deploy:
   provider: npm
