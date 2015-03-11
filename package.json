@@ -23,7 +23,7 @@
     "posttest": "istanbul check-coverage --statements 90 --branches 75"
   },
   "author": "The Book People Ltd",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "dependencies": {
     "colors": "^1.0.3",
     "commander": "^2.6.0",
